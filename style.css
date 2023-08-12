@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    background-color: black;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    max-width: 100%;
+    height: auto;
+    padding: 10px 20px;
+   
+}
+.logo img{
+    width: 150px;
+    height: 100px;
+    
+}
+ul{
+    list-style:none;
+    display: flex;
+    margin: 20px;
+   
+    height: auto;
+    gap: 20px;
+}
+.red{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 150px;
+    height: 50px;
+    border-radius: 70px;
+    background-color: red;
+    color: white;
+    
+
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.bg img{
+    padding:10px;
+    width: 100%;
+    height:700px;
+}
+
+h1{
+   text-align: center;
+   color: white;
+
+}
+span{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+p{
+    color: silver;
+    text-align: center;
+}
+.parent{
+    
+    display: flex;
+    justify-content: space-around;
+    max-width: 100%;
+    height: auto;
+}
+.child{
+   margin: 20px;
+    
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 300px;
+    height:150px;
+    border-radius: 10px;
+    background-color: aliceblue;
+    gap: 20px;
+}
+.button{
+    display: flex;
+    justify-content: space-around;
+    max-width: 100%;
+    height: auto;
+    
+}
+.childa{
+    margin: 50px;
+    
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width:200px;
+    height:50px;
+    border-radius: 40px;
+    background-color: black;
+    border-width: 1px;
+    border-style: solid;
+    border-color: aliceblue;
+    
+    
+    gap: 20px;
+}
+h3{
+    color: brown;
+}
+.left{
+    text-align: left;
+}
+.islamabad{
+    width: 100%;
+    height: 200px;
+    max-width: 100%;
+}
+.islamabada{
+    max-width: 100%;
+    align-items: center;
+    justify-content:center;
+    display: flex;
+    width:200px;
+    height:50px;
+    border-radius: 40px;
+    background-color: black;
+    border-width: 1px;
+    border-style: solid;
+    border-color: aliceblue;
+}
+h1{
+    font-size: 30px;
+}
+.chil{
+    margin: 5px;
+    
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width:300px;
+    height:300px;
+    border-radius: 40px;
+    background-color: black;
+    border-width: 1px;
+    border-style: solid;
+    gap: 20px;
+}
+.chil img{
+   max-width:100%;
+   height: auto;
+}
+.ins{
+    display: flex;
+    justify-content: space-around;
+    max-width: 100%;
+    height: auto;
+    
+    gap: 20px;
+}
+h4{
+    color: brown;
+    justify-content: space-between;
+    
+    
+    
+}
+.center{
+
+    text-align: center;
+    justify-content: space-between;
+    color:white;
+   display: flex;
+   max-width: 100%;
+   height: auto;
+}
